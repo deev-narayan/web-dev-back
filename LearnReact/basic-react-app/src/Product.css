@@ -1,0 +1,60 @@
+.Product{
+    border: 1px solid rgba(255, 255, 255, 0.186);
+    margin: 1rem;
+    border-radius: 14px;
+    width: 500px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.Product:hover{
+    border: 1px solid #ffffff;
+}
+.infoP{
+    width: 100%;
+    height: 4rem;
+}
+.ri-menu-line{
+    font-size: 1.5rem;
+    opacity: .75;
+}
+.prof{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: .5px solid #dadada;
+    gap: .75rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.men{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgcon{
+    width: 97%;
+    margin: 0 auto;
+    height: 700px;
+    border-radius: 2px;
+}
+.imgcon>img{
+    border-radius: 2px;
+}
+.func{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    opacity: .5;
+}
